@@ -88,7 +88,7 @@ function mostraAlternativas(){
 
 function respostaSelecionada(opcaoSelecionada) {
     const afirmacoes = opcaoSelecionada.afirmacao;
-    historiaFinal += afirmacoes + " ";
+    historiaFinal +=   "hua";
     atual++;
     mostraPergunta();
 }
@@ -96,7 +96,7 @@ function respostaSelecionada(opcaoSelecionada) {
 function mostraResultado() {
     caixaPerguntas.textContent = "No dia seguinte encontraram seus corpos...";
     textoResultado.textContent = historiaFinal;
-    caixaAlternativas.textContent = "fim";
+    caixaAlternativas.textContent = "";
 }
 
 mostraPergunta();
